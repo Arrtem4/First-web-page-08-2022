@@ -63,7 +63,7 @@ body {
     position: relative;
     text-align: center;
     margin: auto;
-    background-image: url(images/fon1.jpg);
+    background-image: url(../images/fon1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -136,7 +136,7 @@ body {
 
 .picture2 {
     margin: auto;
-    background-image: url(images/fon2.jpg);
+    background-image: url(../images/fon2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -173,7 +173,7 @@ body {
 
 .footer {
     height: 200px;
-    background-image: url(images/footer.jpg);
+    background-image: url(../images/footer.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
