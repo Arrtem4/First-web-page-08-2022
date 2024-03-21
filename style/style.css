@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap');
 body {
     font-family: 'Merriweather', serif;
-    background: url(images/background2.jpg);
+    background: url(/images/background2.jpg);
     background-position: center;
     background-repeat: repeat-y;
     cursor:default;
