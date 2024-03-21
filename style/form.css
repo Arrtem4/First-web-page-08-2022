@@ -1,0 +1,77 @@
+.emailform {
+    background: rgba(113, 129, 176, 0.594);
+    padding: 40px;
+    padding-top: 20px;
+}
+
+.emailform-title{
+    line-height: 2em;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.448);
+    border-radius: 5px;
+    color:white;
+    padding: 20px;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.form {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    row-gap: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.form-name, .form-email, .form-phone {
+    background-color: rgba(0, 0, 0, 0.448);
+    border-radius: 5px;
+    height: 100px;
+    align-self: stretch;
+    justify-self: stretch;
+    color: white;
+    text-align: center;
+    font-family: 'Merriweather', serif; 
+    min-width: 380px;
+    width: 380px;
+    margin: auto;
+}
+
+.form-name input, .form-email input, .form-phone input{
+    background-color: rgba(0, 0, 0, 0.448);
+    height: 30px;
+    color: white;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    margin-top: 30px;
+}
+.form-phone input{ 
+    margin-top: 10px;
+    width: 150px;
+}
+.form-phone { 
+   height: 80px;
+   padding-top: 20px;
+}
+.form-email input{width: 250px;}
+
+.input-btn {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.448);
+    height: 100px;
+    width: 400px;
+    margin: auto;
+    border-radius: 5px;
+}
+.btn{
+    height: 40px;
+    width: 250px;
+    margin-top: 30px;
+    font-family: 'Merriweather', serif;
+    background-color: rgba(0, 0, 0, 0.448);
+    color:white;
+    border-radius: 5px; 
+    cursor: pointer;
+    transition: all 0.2s;
+}

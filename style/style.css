@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap');
+body {
+    font-family: 'Merriweather', serif;
+    background: url(/images/background2.jpg);
+    background-position: center;
+    background-repeat: repeat-y;
+    /* background-size: cover; */
+    cursor:default;
+}
+
+.container {
+    max-width: 1500px;
+    min-width: 550px;
+    margin: auto;
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, auto));
+    background: rgba(0, 0, 0, 0.722);
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-picture{
+    align-self: center;
+    justify-self: end;
+}
+
+.logo-name {
+    color: white;
+    align-self: center;
+    font-size: 18px;
+    padding-left: 25px;
+    transition: all, 0.6s;
+}
+
+.nav {
+    display:grid;
+    gap:10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    height: 50px;
+    justify-content: space-evenly;
+}
+
+.button-nav {
+    box-sizing:border-box;
+    font-family: 'Merriweather', serif;
+    border: none;
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 14px;
+    transition: all, 0.3s;
+}
+
+.picture-1 {
+    position: relative;
+    text-align: center;
+    margin: auto;
+    background-image: url(/images/fon1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+
+.picture-1 h1 {
+    position: absolute;
+    text-align: center;
+    z-index: 1;
+    top: 25%;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    line-height: 80px;
+    font-weight: 700;
+    font-size: 34px;
+    transition: all, 5s;
+    background-color: rgba(0, 0, 0, 0.448);
+}
+
+
+.title{
+    background: rgba(113, 129, 176, 0.594);
+    padding: 2%;
+}
+
+.title-head {
+    text-align: center;
+    font-size: 18px;
+    background: rgba(0, 0, 0, 0.62);
+    color:white;
+    margin: auto;
+    border-radius: 5px;
+    padding: 1px; 
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 3px 3px rgba(0, 0, 0, 0.5);
+    transition: all, 0.2s;
+}
+
+.title-card {
+    display: grid;
+    /* grid-template-columns: repeat(auto-fit, minmax(330px, auto)); */
+    grid-template-columns: repeat(4, 1fr);
+    
+    row-gap: 30px;
+    justify-items: center;
+    width: 100%;
+}
+
+.title-card1,.title-card2,.title-card3,.title-card4 {
+    background: rgba(3, 3, 3, 0.685);
+    color: white;
+    box-shadow: 3px, 3px, 5px, 5px rgba(0,0,0,0.9);
+    border-radius: 5px;
+    display:inline-flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+    width: 300px;
+    height: 80px;
+    text-align: center;
+    box-shadow: 2px 2px 3px 3px rgba(0, 0, 0, 0.5);
+    transition: all, 0.2s;
+}
+
+.title-card4-text {
+    width: 100%;
+}
+
+.picture2 {
+    margin: auto;
+    background-image: url(/images/fon2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    position: relative;
+    text-align: center;
+}
+
+.picture2 p {
+    position: absolute;
+    text-align: center;
+    z-index: 1;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    line-height: 80px;
+    font-weight: 400;
+    font-size: 28px;
+    transition: all, 5s;
+    background-color: rgba(0, 0, 0, 0.448);
+}
+
+.p2t1 {
+    top:10%
+}
+.p2t2 {
+    top:30%
+}
+.p2t3 {
+    top:50%
+}
+.p2t4 {
+    top:70%
+}
+
+.footer {
+    height: 200px;
+    background-image: url(/images/footer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer-black {
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.55);
+    transition: all 0.3s;
+}
+
+.footer-info {
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    align-items: flex-start;
+    justify-items: center;
+    height: 100%;
+}
+
+.footer-info ul {
+    margin:0;
+    padding:0;
+    padding-top: 20px;
+}
+.fi2 {
+    width:100%;
+    align-self: center;
+    border-left: 2px solid rgba(255, 255, 255, 0.655);
+    border-right: 2px solid rgba(255, 255, 255, 0.655);
+    text-align: center;
+}
+
+.fi1 a, .fi3 a {
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s;
+    
+}
+
+.fi1 li, .fi3 li {
+    margin-bottom: 15px;
+    list-style: none;
+}
