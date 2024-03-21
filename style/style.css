@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap');
 body {
     font-family: 'Merriweather', serif;
-    background: url(./images/background2.jpg);
+    background: url(../images/background2.jpg);
     background-position: center;
     background-repeat: repeat-y;
     /* background-size: cover; */
@@ -64,7 +64,7 @@ body {
     position: relative;
     text-align: center;
     margin: auto;
-    background-image: url(./images/fon1.jpg);
+    background-image: url(../images/fon1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -137,7 +137,7 @@ body {
 
 .picture2 {
     margin: auto;
-    background-image: url(./images/fon2.jpg);
+    background-image: url(../images/fon2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -174,7 +174,7 @@ body {
 
 .footer {
     height: 200px;
-    background-image: url(./images/footer.jpg);
+    background-image: url(../images/footer.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
